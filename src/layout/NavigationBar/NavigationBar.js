@@ -1,13 +1,14 @@
-import React from 'react';
-import MobileNavigation from './MobileNavigation';
-import DesktopNavigation from './DesktopNavigation';
+import React from "react";
+import Section from "@dribble/layout/Section";
+import MobileNavigation from "./MobileNavigation";
+import DesktopNavigation from "./DesktopNavigation";
 
 function NavigationBar() {
   return (
-    <div>
+    <Section>
       <MobileNavigation />
-    </div>
-  )
+    </Section>
+  );
 }
 
-export default NavigationBar
+export default NavigationBar;

@@ -1,8 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import Button from "@dribble/ui/Button";
 import Image from "next/image";
 import Logo from "@dribble/assets/dribbble.jpeg";
+import { NavigationContainer } from "./NavigationStyles";
 
 function MobileNavigation() {
   return (
@@ -13,10 +13,5 @@ function MobileNavigation() {
     </NavigationContainer>
   );
 }
-
-const NavigationContainer = styled.nav`
-  display: flex;
-  justify-content: space-between;
-`;
 
 export default MobileNavigation;

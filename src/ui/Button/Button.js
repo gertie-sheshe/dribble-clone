@@ -6,7 +6,7 @@ function Button({ children, onClick }) {
 }
 
 const StyledButton = styled.button`
-  /* height: fit-content; */
+  height: 40px;
 `;
 
 export default Button;
