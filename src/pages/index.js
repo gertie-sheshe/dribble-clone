@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import NavigationBar from '../layout/NavigationBar';
+import NavigationBar from '@dribble/layout/NavigationBar';
 
 export default function Home() {
   return (
