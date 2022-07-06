@@ -1,15 +1,16 @@
 import React from "react";
-import Button from "@dribble/ui/Button";
 import Image from "next/image";
 import Logo from "@dribble/assets/dribbble.jpeg";
-import { NavigationContainer } from "./NavigationStyles";
+import MenuIcon from "@dribble/assets/menu_icon.svg";
+
+import { NavigationContainer, Link } from "./NavigationStyles";
 
 function MobileNavigation() {
   return (
     <NavigationContainer>
-      <Button>Menu</Button>
+      <Image src={MenuIcon} width={30} height={30} alt="Menu Icon" />
       <Image src={Logo} width={88} height={78} alt="Dribble Logo" />
-      <Button>Sign In</Button>
+      <Link>Sign In</Link>
     </NavigationContainer>
   );
 }

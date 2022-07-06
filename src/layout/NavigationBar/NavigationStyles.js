@@ -6,3 +6,7 @@ export const NavigationContainer = styled.nav`
   align-items: center;
   height: 78px;
 `;
+
+export const Link = styled.a`
+  color: ${({ theme }) => theme.colors.text.secondary};
+`;

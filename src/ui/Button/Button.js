@@ -1,12 +1,12 @@
 import React from "react";
-import styled from "styled-components";
+import { Button as BaseButton } from "./ButtonStyles";
 
-function Button({ children, onClick }) {
-  return <StyledButton onClick={onClick}>{children}</StyledButton>;
+function Button({ children, onClick, variant, className }) {
+  return (
+    <BaseButton className={className} variant={variant} onClick={onClick}>
+      {children}
+    </BaseButton>
+  );
 }
-
-const StyledButton = styled.button`
-  height: 40px;
-`;
 
 export default Button;
