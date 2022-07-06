@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import GlobalCSS from "../../styles/global.css";
+import GlobalCSS from "../styles/global.css";
 import theme from "@dribble/theme/theme";
 
 function MyApp({ Component, pageProps }) {
