@@ -1,5 +1,6 @@
 import Head from "next/head";
 import NavigationBar from "@dribble/layout/NavigationBar";
+import Hero from "@dribble/layout/Hero";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <header>
         <NavigationBar />
+        <Hero />
       </header>
 
       <main></main>

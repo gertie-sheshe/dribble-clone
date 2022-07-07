@@ -10,7 +10,7 @@ const colors = {
   primary: { main: "#fff", dark: "#ea4c89" },
   text: { primary: "#000", secondary: "#6E6D7A", tertiary: "#fff" },
   background: { main: "#fff" },
-  pink: { main: "#EA4C89" },
+  pink: { main: "#EA4C89", light: "#F9F8FD" },
   gray: { main: "#9E9EA7" },
 };
 

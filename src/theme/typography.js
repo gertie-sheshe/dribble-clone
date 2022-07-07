@@ -6,15 +6,12 @@ const { md, lg } = devices;
 export const H1 = styled.h1`
   font-weight: ${({ theme }) => theme.typography.h1.fontWeight};
   font-size: ${({ theme }) => theme.typography.h1.fontSize.sm};
-  color: gray;
 
   @media (min-width: ${md}) {
     font-size: ${({ theme }) => theme.typography.h1.fontSize.md};
-    color: red;
   }
 
   @media (min-width: ${lg}) {
     font-size: ${({ theme }) => theme.typography.h1.fontSize.lg};
-    color: blue;
   }
 `;
