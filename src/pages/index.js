@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NavigationBar from "@dribble/layout/NavigationBar";
 import Hero from "@dribble/layout/Hero";
+import Filter from "@dribble/ui/Filter";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
         <Hero />
       </header>
 
-      <main></main>
+      <main>
+        <Filter />
+      </main>
     </>
   );
 }
